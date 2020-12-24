@@ -1,0 +1,12 @@
+<div class="card-columns">
+
+    <div *ngFor="let imagen of imagenes |async" class="card">
+        <img class="card-img-top" [src]="imagen.url">
+        <div class="card-body">
+            <h5 class="card-title">{{imagen.nombre}}</h5>
+        </div>
+        <a download class="btn btn-outline-primary btn-block" [href]="imagen.url">Descargar Imagen</a>
+        <button class="btn btn-outline-danger btn-block">Borrar</button>
+    </div>
+
+</div>

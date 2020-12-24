@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+ 
+  firebaseConfig : {
+    apiKey: "AIzaSyBxI0PSkNxjDnBfUqFKspRIDq-8ZleSF6s",
+    authDomain: "fir-fotos-59d07.firebaseapp.com",
+    projectId: "fir-fotos-59d07",
+    storageBucket: "fir-fotos-59d07.appspot.com",
+    messagingSenderId: "585183307875",
+    appId: "1:585183307875:web:0b331ea060a64603edb056",
+    measurementId: "G-LDPLHT90C6"
+  }
+  
 };
 
 /*
@@ -14,3 +25,29 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+
+// <!-- The core Firebase JS SDK is always required and must be listed first -->
+// <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+// <!-- TODO: Add SDKs for Firebase products that you want to use
+//      https://firebase.google.com/docs/web/setup#available-libraries -->
+// <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+// <script>
+//   // Your web app's Firebase configuration
+//   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+//   var firebaseConfig = {
+//     apiKey: "AIzaSyBxI0PSkNxjDnBfUqFKspRIDq-8ZleSF6s",
+//     authDomain: "fir-fotos-59d07.firebaseapp.com",
+//     projectId: "fir-fotos-59d07",
+//     storageBucket: "fir-fotos-59d07.appspot.com",
+//     messagingSenderId: "585183307875",
+//     appId: "1:585183307875:web:0b331ea060a64603edb056",
+//     measurementId: "G-LDPLHT90C6"
+//   };
+//   // Initialize Firebase
+//   firebase.initializeApp(firebaseConfig);
+//   firebase.analytics();
+// </script>
